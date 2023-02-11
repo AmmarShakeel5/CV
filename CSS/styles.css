@@ -1,0 +1,191 @@
+body {
+  background: url("../images 2/body.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+em {
+  font-size: 10pt;
+}
+
+#head {
+  text-decoration: underline double 1.5px;
+}
+
+mark {
+  background-color: #D6E4E5;
+}
+
+.name {
+  font-size: 45pt;
+  text-align: center;
+}
+
+.data {
+  font-size: 20pt;
+}
+
+.email {
+  font-size: 16pt;
+}
+
+/*.number {
+  font-size: 18pt;
+}*/
+.fa {
+  border-radius: 40%;
+  padding: 5px;
+  font-size: 10px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 0.5px;
+}
+/******** icons *******/
+.fa-whatsapp {
+  background:linear-gradient( #5FFC7B, #28D146);
+  color: white;
+}
+
+.fa-phone {
+  background: #51A0D5;
+  color: white; 
+}
+
+.fa-github {
+  background: #171515;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+/************* mouse hover icons***********/
+.fa:hover {
+  border-radius: 40%;
+  padding: 10px;
+  font-size: 26px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 1px;
+}
+/*.whatsappicon:hover {
+  width: 80px;
+  height: 40px;
+  margin-bottom: -10;
+  position: absolute;
+  right: 43.7%;
+}
+
+.phoneicon:hover {
+  width: 45px;
+  height: 40px;
+  margin-bottom: -10;
+}
+
+.githubicon:hover {
+  width: 55px;
+  height: 40px;
+  margin-bottom: -10;
+  position: absolute;
+  right: 42%;
+}
+
+.linkedinicon:hover {
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10;
+  position: absolute;
+  right: 40%;
+}*/
+
+.whatsapp {
+  font-size: 18pt;
+}
+
+dt {
+  margin-left: 30px;
+}
+
+h2 {
+  background-color: #ECE8DD;
+  font-size: 25pt;
+  font-family: 'Kaushan Script', cursive;
+}
+
+h3 {
+  background-color: #ECE8DD;
+  font-size: 18pt;
+  text-align: center;
+}
+
+.link:hover {
+  color: #7932e3;
+  font-size: 25px;
+}
+
+.skill {
+  font-size: 18pt;
+}
+
+.end {
+  width: 30%;
+  border-style: none;
+  border-top: dotted;
+}
+
+.box {
+  background-color: #F8F4EA;
+  width: 720px;
+  padding: 16px;
+  border: none;
+  margin: auto;
+  border-radius: 50px;
+  /*opacity: 0.5;*/
+}
+
+.box:hover {
+  opacity: 1;
+}
+
+/********* unvisited link *******/
+.email:link {
+  color: blue;
+}
+
+.THF:link {
+  color: blue;
+}
+
+.page:link {
+  color: blue;
+}
+
+/********** visited link *********/
+.email:visited {
+  color: #227C70;
+}
+
+.THF:visited {
+  color: #227C70;
+}
+
+.page:visited {
+  color: #227C70;
+}
+
+/********* mouse hover link********/
+.email:hover {
+  color: red;
+}
+
+.THF:hover {
+  color: red;
+}
+
+.page:hover {
+  color: red;
+}
